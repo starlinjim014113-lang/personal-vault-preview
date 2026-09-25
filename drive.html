@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://accounts.google.com/gsi/client; style-src 'self' 'unsafe-inline' https://accounts.google.com/gsi/style; img-src 'self' data:; connect-src https://accounts.google.com/gsi/ https://www.googleapis.com/drive/v3/about; frame-src https://accounts.google.com/gsi/; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#080e16" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Connect Google Drive · Vault</title>
+    <script type="module" crossorigin src="./assets/drive-D98FGJqk.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/styles-Bji9thb5.js">
+    <link rel="stylesheet" crossorigin href="./assets/styles-BfhFMjig.css">
+  </head>
+  <body>
+    <div class="preview-banner">
+      <strong>Development connection check</strong
+      ><span>Use your test account. Vault sync is still being built.</span>
+    </div>
+    <main class="onboarding">
+      <div class="onboarding-brand"><strong>Vault</strong></div>
+      <section class="onboarding-card drive-connection">
+        <p class="eyebrow">SYNC &amp; BACKUP</p>
+        <h1>Connect Google Drive</h1>
+        <p class="muted">
+          Authorize access to files used by Vault. Your master password stays in
+          Vault.
+        </p>
+        <div class="notice">
+          <p>
+            This step checks the connection and shows the selected Google
+            account. It does not upload a vault or start synchronization.
+          </p>
+        </div>
+        <p id="drive-status" role="status" aria-live="polite">
+          Preparing Google connection…
+        </p>
+        <p id="drive-account" hidden></p>
+        <div class="onboarding-actions">
+          <button id="drive-connect" class="button primary" disabled>
+            Continue with Google
+          </button>
+          <button id="drive-disconnect" class="button secondary" hidden>
+            End connection
+          </button>
+          <a class="button secondary" href="./">Back to Vault</a>
+        </div>
+        <p class="muted">
+          Connection access is temporary and ends when you leave or reload this
+          page. Your local vault stays on this device.
+        </p>
+        <p id="drive-environment" class="muted"></p>
+      </section>
+    </main>
+  </body>
+</html>
