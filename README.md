@@ -2,8 +2,8 @@
 
 Compiled static application for personal testing. Use fictional credentials only.
 
-Build: Ekm9yU5rbH2uBpdqn8TG
+Build: khcx7p9ReETaFzyWLknd
 
-Vault contents and master passwords stay on the user's device. No account or custom backend. Google Drive synchronization is not implemented. This repository contains the public app files, not any user's encrypted vault.
+Readable vault contents and master passwords stay on the user's device. Users can explicitly upload a separate encrypted copy to Google Drive and open it on another device. Automatic synchronization is not implemented. No vault account or custom backend. This repository contains public app files, not any user's encrypted vault.
 
 Built with React, Vite, libsodium.js, zxcvbn-ts, Lucide and Simple Icons. See [third-party license notices](THIRD_PARTY_LICENSES.txt) for bundled dependencies.
