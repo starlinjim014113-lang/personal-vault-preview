@@ -19,15 +19,37 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Vault" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link
+      rel="apple-touch-startup-image"
+      media="screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+      href="./icons/launch-1290x2796.png"
+    />
     <title>Vault · Development</title>
-    <script type="module" crossorigin src="./assets/app-DRHPRUeY.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/styles-5kV0jIPU.js">
-    <link rel="modulepreload" crossorigin href="./assets/driveHandoff-DsYnNXN5.js">
+    <!-- Critical paint before the app loads: dark background, no white flash. -->
+    <style>html,body{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;background:#080e16;height:100%;margin:0;overflow:hidden}#launch{z-index:2147483000;pointer-events:none;background:#080e16;justify-content:center;align-items:center;transition:opacity .32s;display:flex;position:fixed;inset:0}#launch[data-done]{opacity:0}#launch svg{width:88px;height:88px}</style>
+    <script type="module" crossorigin src="./assets/app-x9ZUhf4g.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/styles-Bk6yuYIV.js">
+    <link rel="modulepreload" crossorigin href="./assets/driveHandoff-CI9NkUoP.js">
     <link rel="modulepreload" crossorigin href="./assets/autoPreference-CKDOuT5c.js">
-    <link rel="stylesheet" crossorigin href="./assets/styles-Cz8W4u3b.css">
-    <link rel="stylesheet" crossorigin href="./assets/app-CLji46iF.css">
+    <link rel="stylesheet" crossorigin href="./assets/styles-CIdJ_eeI.css">
+    <link rel="stylesheet" crossorigin href="./assets/app-BYT16PuH.css">
   </head>
   <body>
+    <div id="launch" aria-hidden="true">
+      <svg viewBox="80 80 352 352" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="launch-blue" x2="0" y2="1">
+            <stop stop-color="#168eff" />
+            <stop offset="1" stop-color="#0754c7" />
+          </linearGradient>
+        </defs>
+        <rect x="80" y="80" width="352" height="352" rx="88" fill="url(#launch-blue)" />
+        <rect x="160" y="234" width="192" height="142" rx="35" fill="none" stroke="#fff" stroke-width="20" />
+        <path d="M196 234v-55a60 60 0 0 1 120 0v55" fill="none" stroke="#fff" stroke-width="20" />
+        <path d="M256 291v32" stroke="#fff" stroke-width="20" stroke-linecap="round" />
+      </svg>
+    </div>
     <div id="root"></div>
   </body>
 </html>
