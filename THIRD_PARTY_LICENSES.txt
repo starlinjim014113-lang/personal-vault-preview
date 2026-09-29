@@ -325,3 +325,174 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+=== Vendored brand logos (src/components/brandLogos.ts) ===
+
+# Third-party logos
+
+Vault entry tiles show the logo of the service an entry belongs to. All logos are bundled
+into the app (nothing is fetched at runtime). Logos are used only to identify the service;
+trademarks belong to their owners.
+
+## Simple Icons (CC0-1.0)
+
+Most tiles use icons from [Simple Icons](https://simpleicons.org/) (npm package
+`simple-icons`, CC0-1.0; its license text is included in THIRD_PARTY_LICENSES.txt).
+
+## SVG Logos (CC0-1.0)
+
+From [SVG Logos](https://github.com/gilbarbara/logos) by Gil Barbara, via
+`@iconify-json/logos` 1.2.14 (Google family and CodePen added from 1.2.15), license CC0-1.0
+(https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt). Vendored as
+sanitized SVG in `src/components/brandLogos.ts` (the package is not a dependency).
+
+| Service | Icon name |
+|---|---|
+| Microsoft | logos:microsoft-icon |
+| Microsoft Teams | logos:microsoft-teams |
+| OneDrive | logos:microsoft-onedrive |
+| Azure | logos:microsoft-azure |
+| Skype | logos:skype |
+| Bing | logos:bing |
+| LinkedIn | logos:linkedin-icon |
+| Slack | logos:slack-icon |
+| Adobe | logos:adobe-icon |
+| ChatGPT | logos:openai-icon |
+| OpenAI | logos:openai-icon |
+| AWS | logos:aws |
+| Salesforce | logos:salesforce |
+| Heroku | logos:heroku-icon |
+| monday.com | logos:monday-icon |
+| MetaMask | logos:metamask-icon |
+| Yahoo | logos:yahoo |
+| Google | logos:google-icon |
+| Gmail | logos:google-gmail-2020 |
+| Google Drive | logos:google-drive-2020 |
+| Google Photos | logos:google-photos-2020 |
+| Google Calendar | logos:google-calendar-2020 |
+| Google Maps | logos:google-maps |
+| Google Meet | logos:google-meet-2020 |
+| Google Play | logos:google-play-icon |
+| YouTube | logos:youtube-icon |
+| Google One | logos:google-one |
+| Google Cloud | logos:google-cloud |
+| Gemini | logos:google-gemini-icon |
+| Google Pay | logos:google-pay-icon |
+| Google Wallet | logos:google-wallet |
+| Google Home | logos:google-home-2020 |
+| Google Keep | logos:google-keep-2020 |
+| CodePen | logos:codepen-icon |
+
+## Wikimedia Commons
+
+Files marked public domain on Wikimedia Commons (typically "PD-textlogo": too simple for
+copyright protection, but still trademarks). Sanitized and optimized before bundling.
+
+| Service | Commons file | License / status on Commons |
+|---|---|---|
+| Outlook | [Microsoft Outlook Icon (2025–present).svg](https://commons.wikimedia.org/wiki/File:Microsoft_Outlook_Icon_(2025%E2%80%93present).svg) | Public domain (trademarked) |
+| Xbox | [Xbox logo (2019).svg](https://commons.wikimedia.org/wiki/File:Xbox_logo_(2019).svg) | Public domain (trademarked) |
+| Minecraft | [Updated Minecraft cube.svg](https://commons.wikimedia.org/wiki/File:Updated_Minecraft_cube.svg) | Public domain (trademarked) |
+| Amazon | [Amazon icon.svg](https://commons.wikimedia.org/wiki/File:Amazon_icon.svg) | Public domain (trademarked) |
+| Prime Video | [Amazon Prime Video logo (2024).svg](https://commons.wikimedia.org/wiki/File:Amazon_Prime_Video_logo_(2024).svg) | Public domain (trademarked) |
+| Disney+ | [Disney+ 2024.svg](https://commons.wikimedia.org/wiki/File:Disney%2B_2024.svg) | Public domain (trademarked) |
+| Hulu | [Hulu logo (2018).svg](https://commons.wikimedia.org/wiki/File:Hulu_logo_(2018).svg) | Public domain (trademarked) |
+| Peacock | [NBCUniversal Peacock Logo (2026).svg](https://commons.wikimedia.org/wiki/File:NBCUniversal_Peacock_Logo_(2026).svg) | Public domain (trademarked) |
+| Pluto TV | [Pluto TV logo 2024.svg](https://commons.wikimedia.org/wiki/File:Pluto_TV_logo_2024.svg) | Public domain (trademarked) |
+| Sling TV | [Sling TV logo.svg](https://commons.wikimedia.org/wiki/File:Sling_TV_logo.svg) | Public domain (trademarked) |
+| ESPN | [ESPN wordmark.svg](https://commons.wikimedia.org/wiki/File:ESPN_wordmark.svg) | Public domain (trademarked) |
+| SiriusXM | [Sirius XM logo 2023.svg](https://commons.wikimedia.org/wiki/File:Sirius_XM_logo_2023.svg) | Public domain (trademarked) |
+| Walmart | [Walmart spark (2025).svg](https://commons.wikimedia.org/wiki/File:Walmart_spark_(2025).svg) | Public domain (trademarked) |
+| Best Buy | [Best Buy logo 2018.svg](https://commons.wikimedia.org/wiki/File:Best_Buy_logo_2018.svg) | Public domain (trademarked) |
+| Costco | [Costco Wholesale logo 2010-10-26.svg](https://commons.wikimedia.org/wiki/File:Costco_Wholesale_logo_2010-10-26.svg) | Public domain (trademarked) |
+| The Home Depot | [The Home Depot logo.svg](https://commons.wikimedia.org/wiki/File:The_Home_Depot_logo.svg) | Public domain (trademarked) |
+| Lowe's | [Lowes Companies Logo.svg](https://commons.wikimedia.org/wiki/File:Lowes_Companies_Logo.svg) | Public domain (trademarked) |
+| Wayfair | [Wayfair 2024 logo.svg](https://commons.wikimedia.org/wiki/File:Wayfair_2024_logo.svg) | Public domain (trademarked); tile shows the symbol only (viewBox crop of this file) |
+| Sephora | [Sephora logo.svg](https://commons.wikimedia.org/wiki/File:Sephora_logo.svg) | Public domain (trademarked) |
+| Temu | [Temu logo.svg](https://commons.wikimedia.org/wiki/File:Temu_logo.svg) | Public domain (trademarked) |
+| SHEIN | [Shein Logo 2017.svg](https://commons.wikimedia.org/wiki/File:Shein_Logo_2017.svg) | Public domain (trademarked) |
+| Gap | [Gap logo.svg](https://commons.wikimedia.org/wiki/File:Gap_logo.svg) | Public domain (trademarked) |
+| Old Navy | [Old Navy Logo.svg](https://commons.wikimedia.org/wiki/File:Old_Navy_Logo.svg) | Public domain (trademarked) |
+| Walgreens | [Walgreens 2020 initial W logo.svg](https://commons.wikimedia.org/wiki/File:Walgreens_2020_initial_W_logo.svg) | Public domain (trademarked) |
+| Publix | [Publix Logo.svg](https://commons.wikimedia.org/wiki/File:Publix_Logo.svg) | Public domain (trademarked) |
+| Grubhub | [Grubhub 2025 logo.svg](https://commons.wikimedia.org/wiki/File:Grubhub_2025_logo.svg) | Public domain (trademarked) |
+| Domino's | [Domino's 2025 (symbol).svg](https://commons.wikimedia.org/wiki/File:Domino%27s_2025_(symbol).svg) | Public domain (trademarked) |
+| Pizza Hut | [Pizza Hut (2019).svg](https://commons.wikimedia.org/wiki/File:Pizza_Hut_(2019).svg) | Public domain (trademarked) |
+| Wendy's | [Wendy's logo 2012.svg](https://commons.wikimedia.org/wiki/File:Wendy%27s_logo_2012.svg) | Public domain (trademarked) |
+| Subway | [Subway 2016 logo.svg](https://commons.wikimedia.org/wiki/File:Subway_2016_logo.svg) | Public domain (trademarked) |
+| Dunkin' | [Dunkin' 2022.svg](https://commons.wikimedia.org/wiki/File:Dunkin%27_2022.svg) | Public domain (trademarked) |
+| Chick-fil-A | [Chick-fil-A Logo.svg](https://commons.wikimedia.org/wiki/File:Chick-fil-A_Logo.svg) | Public domain (trademarked) |
+| Panera Bread | [Panera Bread wordmark.svg](https://commons.wikimedia.org/wiki/File:Panera_Bread_wordmark.svg) | Public domain (trademarked) |
+| Capital One | [Capital One logo.svg](https://commons.wikimedia.org/wiki/File:Capital_One_logo.svg) | Public domain (trademarked) |
+| Citi | [Citi logo March 2023.svg](https://commons.wikimedia.org/wiki/File:Citi_logo_March_2023.svg) | Public domain (trademarked) |
+| PNC | [PNC logo.svg](https://commons.wikimedia.org/wiki/File:PNC_logo.svg) | Public domain (trademarked) |
+| Navy Federal | [Navy Federal Credit Union Logo.svg](https://commons.wikimedia.org/wiki/File:Navy_Federal_Credit_Union_Logo.svg) | Public domain (trademarked) |
+| Truist | [Truist Financial logo.svg](https://commons.wikimedia.org/wiki/File:Truist_Financial_logo.svg) | Public domain (trademarked); tile shows the symbol only (viewBox crop of this file) |
+| TD Bank | [TD Bank.svg](https://commons.wikimedia.org/wiki/File:TD_Bank.svg) | Public domain (trademarked); tile shows the symbol only (viewBox crop of this file) |
+| Ally | [Ally Financial.svg](https://commons.wikimedia.org/wiki/File:Ally_Financial.svg) | Public domain (trademarked) |
+| Regions | [Regions Financial Corp logo.svg](https://commons.wikimedia.org/wiki/File:Regions_Financial_Corp_logo.svg) | Public domain (trademarked); tile shows the symbol only (viewBox crop of this file) |
+| Huntington | [Huntington Bancshares Inc. logo.svg](https://commons.wikimedia.org/wiki/File:Huntington_Bancshares_Inc._logo.svg) | Public domain (trademarked); tile shows the symbol only (viewBox crop of this file) |
+| SoFi | [SoFi logo.svg](https://commons.wikimedia.org/wiki/File:SoFi_logo.svg) | Public domain (trademarked) |
+| Chime | [Chime company logo.svg](https://commons.wikimedia.org/wiki/File:Chime_company_logo.svg) | Public domain (trademarked) |
+| Charles Schwab | [Charles Schwab Corporation logo.svg](https://commons.wikimedia.org/wiki/File:Charles_Schwab_Corporation_logo.svg) | Public domain (trademarked) |
+| Fidelity | [Logo Fidelity 2011-09-12.svg](https://commons.wikimedia.org/wiki/File:Logo_Fidelity_2011-09-12.svg) | Public domain (trademarked) |
+| Vanguard | [Vanguard.svg](https://commons.wikimedia.org/wiki/File:Vanguard.svg) | Public domain (trademarked) |
+| Credit Karma | [Credit Karma logo.svg](https://commons.wikimedia.org/wiki/File:Credit_Karma_logo.svg) | Public domain (trademarked) |
+| Experian | [Experian logo.svg](https://commons.wikimedia.org/wiki/File:Experian_logo.svg) | Public domain (trademarked) |
+| Equifax | [Equifax Logo.svg](https://commons.wikimedia.org/wiki/File:Equifax_Logo.svg) | Public domain (trademarked) |
+| TransUnion | [TransUnion logo.svg](https://commons.wikimedia.org/wiki/File:TransUnion_logo.svg) | Public domain (trademarked); tile shows the symbol only (viewBox crop of this file) |
+| T-Mobile | [T-Mobile logo 2022.svg](https://commons.wikimedia.org/wiki/File:T-Mobile_logo_2022.svg) | Public domain (trademarked) |
+| Xfinity | [Xfinity 2025.svg](https://commons.wikimedia.org/wiki/File:Xfinity_2025.svg) | Public domain (trademarked) |
+| Cox | [Cox Communications Logo.svg](https://commons.wikimedia.org/wiki/File:Cox_Communications_Logo.svg) | Public domain (trademarked) |
+| Boost Mobile | [Boost Mobile (United States) logo.svg](https://commons.wikimedia.org/wiki/File:Boost_Mobile_(United_States)_logo.svg) | Public domain (trademarked) |
+| KAYAK | [Kayak Logo.svg](https://commons.wikimedia.org/wiki/File:Kayak_Logo.svg) | Public domain (trademarked); tile shows the symbol only (viewBox crop of this file) |
+| Hertz | [Hertz Logo.svg](https://commons.wikimedia.org/wiki/File:Hertz_Logo.svg) | Public domain (trademarked) |
+| Enterprise | [Enterprise Rent-A-Car Logo.svg](https://commons.wikimedia.org/wiki/File:Enterprise_Rent-A-Car_Logo.svg) | Public domain (trademarked) |
+| Spirit Airlines | [Spirit Airlines logo.svg](https://commons.wikimedia.org/wiki/File:Spirit_Airlines_logo.svg) | Public domain (trademarked) |
+| Hinge | [Hinge logo.svg](https://commons.wikimedia.org/wiki/File:Hinge_logo.svg) | Public domain |
+| Bumble | [Bumble Logo 2025.svg](https://commons.wikimedia.org/wiki/File:Bumble_Logo_2025.svg) | Public domain (trademarked) |
+| Nintendo | [Nintendo.svg](https://commons.wikimedia.org/wiki/File:Nintendo.svg) | Public domain (trademarked) |
+| Chegg | [Chegg logo.svg](https://commons.wikimedia.org/wiki/File:Chegg_logo.svg) | Public domain (trademarked) |
+| Schoology | [Schoology Logo.svg](https://commons.wikimedia.org/wiki/File:Schoology_Logo.svg) | Public domain (trademarked); tile shows the symbol only (viewBox crop of this file) |
+| AOL | [AOL logo (2024).svg](https://commons.wikimedia.org/wiki/File:AOL_logo_(2024).svg) | Public domain (trademarked) |
+| Google Classroom | [Google Classroom Logo.svg](https://commons.wikimedia.org/wiki/File:Google_Classroom_Logo.svg) | Public domain (trademarked) |
+| Google Docs | [Google Docs 2020 Logo.svg](https://commons.wikimedia.org/wiki/File:Google_Docs_2020_Logo.svg) | Public domain (PD-shape) |
+| Google Sheets | [Google Sheets 2020 Logo.svg](https://commons.wikimedia.org/wiki/File:Google_Sheets_2020_Logo.svg) | Public domain (PD-shape) |
+| Google Slides | [Google Slides 2020 Logo.svg](https://commons.wikimedia.org/wiki/File:Google_Slides_2020_Logo.svg) | Public domain (PD-shape) |
+| Google Fi | [Google Fi Logo.svg](https://commons.wikimedia.org/wiki/File:Google_Fi_Logo.svg) | CC0 |
+| Google Nest | [Google Nest logo.svg](https://commons.wikimedia.org/wiki/File:Google_Nest_logo.svg) | Public domain (trademarked) |
+| Microsoft Copilot | [Microsoft 365 Copilot Icon one-color.svg](https://commons.wikimedia.org/wiki/File:Microsoft_365_Copilot_Icon_one-color.svg) | Public domain (trademarked) |
+| Canva | [Canva logo.svg](https://commons.wikimedia.org/wiki/File:Canva_logo.svg) | Public domain (trademarked); its pattern fill was converted to a clip path |
+| Ulta Beauty | [Ulta Beauty logo.svg](https://commons.wikimedia.org/wiki/File:Ulta_Beauty_logo.svg) | Public domain (trademarked) |
+| Kohl's | [Kohl's logo.svg](https://commons.wikimedia.org/wiki/File:Kohl%27s_logo.svg) | Public domain (trademarked) |
+| Nordstrom | [Nordstrom Logo 2019.svg](https://commons.wikimedia.org/wiki/File:Nordstrom_Logo_2019.svg) | Public domain (trademarked) |
+| CVS | [CVS Logo 2016.svg](https://commons.wikimedia.org/wiki/File:CVS_Logo_2016.svg) | Public domain (trademarked); tile shows the heart symbol only (viewBox crop of this file) |
+| U.S. Bank | [US Bank logo 2023 color.svg](https://commons.wikimedia.org/wiki/File:US_Bank_logo_2023_color.svg) | Public domain (trademarked); tile shows the shield symbol only (viewBox crop of this file) |
+| E*TRADE | [ETrade.svg](https://commons.wikimedia.org/wiki/File:ETrade.svg) | Public domain (trademarked) |
+| Affirm | [Affirm 2023 logo.svg](https://commons.wikimedia.org/wiki/File:Affirm_2023_logo.svg) | Public domain (trademarked) |
+| YNAB | [YNAB logo.svg](https://commons.wikimedia.org/wiki/File:YNAB_logo.svg) | Public domain (trademarked) |
+| Brainly | [Brainly logo with B.svg](https://commons.wikimedia.org/wiki/File:Brainly_logo_with_B.svg) | Public domain (trademarked) |
+| Cricket Wireless | [Cricket Wireless (2014).svg](https://commons.wikimedia.org/wiki/File:Cricket_Wireless_(2014).svg) | Public domain (trademarked) |
+
+## Drawn fallbacks (not logos; replace when a real logo is available)
+
+No free official logo was found for these in simple-icons, SVG Logos, Wikimedia Commons
+(public domain files) or Wikidata's logo links, so their tiles show a plain letter mark in
+the brand's color, drawn as ordinary text in the app (no SVG, nothing traced or copied).
+They are defined in the "DRAWN FALLBACKS" block of `src/components/brandIcons.ts`.
+
+| Service | Drawn mark |
+|---|---|
+| USAA | "USAA" on navy |
+| Kraken | "K" on purple |
+| Crypto.com | "C" on navy |
+| Webull | "W" on blue |
+| Mint (Intuit, discontinued) | "M" on teal |
+| Rocket Money | "RM" on red |
+| Blackboard | "B" on near-black |
+| Vrbo | "V" on blue |
+| Optimum | "O" on near-black |
+| Match | "M" on indigo |
+| MyFitnessPal | "MFP" on blue |
+| Chipotle | "C" on brown |
+
