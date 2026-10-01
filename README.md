@@ -2,7 +2,7 @@
 
 Compiled static application for personal testing. Use fictional credentials only.
 
-Build: rZUo5aeJZ1QYxwxtvBfd
+Build: bA2sj2A9CzORrXTuucKe
 
 Readable vault contents and master passwords stay on the user's device. Users can explicitly upload a separate encrypted copy to Google Drive and open it on another device. Encrypted revisions can sync manually or automatically while the vault is open. No vault account or custom backend. This repository contains public app files, not any user's encrypted vault.
 
